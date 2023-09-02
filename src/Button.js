@@ -23,7 +23,6 @@ Button.propTypes ={
     backgroundColor: PropTypes.string,
     size : PropTypes.oneOf(["sm","md","lg"]),
     onClick: PropTypes.func,
-    // disabled : PropTypes.oneOf(["true","false"])
     disabled : PropTypes.bool
 }
 
